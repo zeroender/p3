@@ -6,17 +6,20 @@ use Illuminate\Http\Request;
 
 class ScheduleController extends Controller
 {
-  /**
-  * GET /
-  */
-  public function index()
-  {
-    return 'Welcome to the schedule application';
-  }
+    /**
+    * GET of /
+    */
+    public function index()
+    {
+        return 'Welcome to the schedule application';
+    }
 
-  public function displaySchedule()
-  {
-    return 'Nothing here yet';
-  }
+    /**
+    * POST of form... eventually
+    */
+    public function displaySchedule()
+    {
+        return 'Nothing here yet';
+    }
 
 }
