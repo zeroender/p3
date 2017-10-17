@@ -11,7 +11,7 @@ class ScheduleController extends Controller
     */
     public function index()
     {
-        return 'Welcome to the schedule application';
+        return view('schedule.form');
     }
 
     /**
@@ -19,7 +19,7 @@ class ScheduleController extends Controller
     */
     public function displaySchedule()
     {
-        return 'Nothing here yet';
+        return view('schedule.result');
     }
 
 }
