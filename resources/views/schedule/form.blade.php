@@ -5,7 +5,8 @@
 @endsection
 
 @section('content')
-  <form>
+  <form method='POST' action='/'>
+    {{ csrf_field() }}
 
     <fieldset class='name'>
       <legend>Please enter your name (required)</legend>

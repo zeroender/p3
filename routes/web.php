@@ -13,7 +13,7 @@
 
 Route::get('/', 'ScheduleController@index');
 
-Route::get('/display-schedule', 'ScheduleController@displaySchedule');
+Route::post('/', 'ScheduleController@displaySchedule');
 
 Route::get('/env', function () {
     dump(config('app.name'));

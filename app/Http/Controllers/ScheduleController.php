@@ -17,9 +17,13 @@ class ScheduleController extends Controller
     /**
     * POST of form... eventually
     */
-    public function displaySchedule()
+    public function displaySchedule(Request $request)
     {
-        return view('schedule.result');
+        return view('schedule.result')->with([
+          'fullName' => $request->get('firstName').' '.$request->get('lastName'),
+          'days' => $request->get('days'),
+          'nights' => $request->get('nightsOk')
+        ]);
     }
 
 }
