@@ -10,6 +10,8 @@
 
 @section('content')
 
+    <h3>Input your schedule</h3>
+
     <form method='POST' action='/'>
         {{ csrf_field() }}
 
@@ -23,7 +25,7 @@
                 </ul>
             @endif
             <label><input type='text' name='firstName' placeholder='First Name'
-              value={{ old('firstName')}}></label>
+              value='{{ old('firstName')}}'></label>
             @if($errors->get('lastName'))
                 <ul>
                     @foreach($errors->get('lastName') as $error)
@@ -32,7 +34,7 @@
                 </ul>
             @endif
             <label><input type='text' name='lastName' placeholder='Last Name'
-              value={{ old('lastName')}}></label>
+              value='{{ old('lastName') }}'></label>
         </fieldset>
 
         <fieldset class='checkboxes'>

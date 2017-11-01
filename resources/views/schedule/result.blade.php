@@ -10,6 +10,8 @@
 
 @section('content')
 
+    <h3>Schedule has been submitted</h3>
+
     <div class="row">
          <div class="col col-md-auto">
             <h3>Hello {{ $fullName }}!</h3>
@@ -40,7 +42,7 @@
 
     <div>
         <a href='/'>
-            <button class='btn btn-primary'>Return to schedule app</button>
+            <div class='btn btn-primary'>Return to schedule app</div>
         </a>
     </div>
 @endsection
