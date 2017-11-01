@@ -1,0 +1,13 @@
+input, label {
+  float:left;
+  clear:left;
+}
+
+legend {
+  padding-top: 15px;
+  font-size: 1.3em;
+}
+
+li {
+  color:red;
+}

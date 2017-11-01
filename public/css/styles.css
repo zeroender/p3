@@ -1,0 +1,27 @@
+body {
+  margin: auto;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+div {
+  padding: 10px;
+  text-align: left;
+  float:left;
+  text-overflow: clip;
+}
+
+img {
+  float:left;
+  width: 500px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  float:left;
+  clear:left;
+}

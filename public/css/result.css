@@ -1,0 +1,9 @@
+div {
+  clear:both;
+  float:left;
+  font-size:large;
+}
+
+li {
+  padding-left: 15px;
+}

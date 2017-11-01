@@ -13,7 +13,9 @@
 
 Route::get('/', 'ScheduleController@index');
 
-Route::post('/', 'ScheduleController@displaySchedule');
+Route::post('/', 'ScheduleController@submit');
+
+Route::get('/display', 'ScheduleController@register');
 
 Route::get('/env', function () {
     dump(config('app.name'));
