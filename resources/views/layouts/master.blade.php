@@ -39,8 +39,6 @@
 	      </section>
 
 	    @stack('body')
-
-
-
+      
     </body>
 </html>
